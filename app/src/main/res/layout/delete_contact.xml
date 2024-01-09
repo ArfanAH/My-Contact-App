@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Contact?"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_below="@+id/dialogTitle"
+    android:gravity="center">
+    <Button
+        android:id="@+id/btnYes"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Yes"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#F44336"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/btnNo"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="No"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#4CAF50"
+        android:layout_margin="10dp"
+        />
+</LinearLayout>
+</RelativeLayout>
